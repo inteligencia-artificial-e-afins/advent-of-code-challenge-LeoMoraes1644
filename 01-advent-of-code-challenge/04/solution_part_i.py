@@ -12,7 +12,6 @@ for section in sections:
     each_one = section.split(",")
     elfo_one = each_one[0].split("-")
     elfo_two = each_one[1].split("-")
-    print(elfo_one)
     if calcular_range(elfo_one, elfo_two):
         soma += 1
 print(soma)
