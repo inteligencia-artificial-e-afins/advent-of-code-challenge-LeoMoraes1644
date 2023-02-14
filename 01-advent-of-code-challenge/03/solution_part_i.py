@@ -18,7 +18,6 @@ for rucksack in rucksacks:
         print(letra_um)
         for letra_dois in list(segunda_metade):
             if letra_um == letra_dois:
-                print(letra_um)
                 armazenar_letra = letra_um
     if len(armazenar_letra) > 0:
         contador += convert_letter_in_value(armazenar_letra)
